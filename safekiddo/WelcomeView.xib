@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WelcomeView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WelcomeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="5iD-c0-mhx">
+                    <rect key="frame" x="37" y="250" width="300" height="56"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Bezpieczny internet dla twojego dziecka" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="rtt-Fb-Bnr">
+                    <rect key="frame" x="34" y="314" width="308" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="rtt-Fb-Bnr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="G5h-XZ-kEI"/>
+                <constraint firstItem="rtt-Fb-Bnr" firstAttribute="leading" secondItem="5iD-c0-mhx" secondAttribute="leading" constant="8" id="J3h-wD-fjd"/>
+                <constraint firstAttribute="centerY" secondItem="5iD-c0-mhx" secondAttribute="centerY" multiplier="1.2" id="K3d-Q7-EG8"/>
+                <constraint firstAttribute="centerX" secondItem="rtt-Fb-Bnr" secondAttribute="centerX" id="OGJ-N1-qwp"/>
+                <constraint firstItem="5iD-c0-mhx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="QKv-H1-Eob"/>
+                <constraint firstItem="rtt-Fb-Bnr" firstAttribute="top" secondItem="5iD-c0-mhx" secondAttribute="bottom" constant="8" id="Saf-0w-KDW"/>
+                <constraint firstItem="5iD-c0-mhx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="U8P-EQ-aXr"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="5iD-c0-mhx" secondAttribute="trailing" constant="20" id="qoA-F5-zDg"/>
+                <constraint firstAttribute="centerX" secondItem="5iD-c0-mhx" secondAttribute="centerX" id="qyy-ON-Tdf"/>
+                <constraint firstItem="rtt-Fb-Bnr" firstAttribute="trailing" secondItem="5iD-c0-mhx" secondAttribute="trailing" constant="-8" id="x5v-2v-dgE"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="5iD-c0-mhx" secondAttribute="trailing" constant="20" id="xyy-Wn-sOb"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rtt-Fb-Bnr" secondAttribute="trailing" constant="20" id="yzj-Rm-M0A"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="QKv-H1-Eob"/>
+                    <exclude reference="qoA-F5-zDg"/>
+                    <exclude reference="J3h-wD-fjd"/>
+                    <exclude reference="x5v-2v-dgE"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="textLabel" destination="rtt-Fb-Bnr" id="5tA-Xj-lHN"/>
+            </connections>
+            <point key="canvasLocation" x="-40.5" y="251.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="WelcomeLogo" width="300" height="56"/>
+    </resources>
+</document>

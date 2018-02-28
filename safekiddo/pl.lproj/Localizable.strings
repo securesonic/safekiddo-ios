@@ -1,0 +1,151 @@
+/*
+  Localizable.strings
+  safekiddo
+
+  Created by Jakub Dlugosz on 11.11.2014.
+  Copyright (c) 2014 ardura. All rights reserved.
+*/
+
+"WELCOME_BTN1_TXT"                      = "Zaloguj";
+"WELCOME_BTN2_TXT"                      = "Załóż konto";
+"PIN_TRIES_LEFT"                        = "Pozostało %d prób";
+"PIN_TRIES_LEFT_2"                      = "Pozostały 2 próby";
+"PIN_TRIES_LEFT_1"                      = "Pozostała 1 próba";
+"PIN_TIMEOUT"                           = "Wprowadzanie PIN zablokowane (%d)";
+"LOGIN_TXT1"                            = "E-mail";
+"LOGIN_TXT2"                            = "Hasło";
+"LOGIN_BTN1_TXT"                        = "Anuluj";
+"LOGIN_ERROR"                           = "Błąd logowania. Sprawdź swoje dane";
+"LOGIN_BTN_FORGOT_PASS_TXT"             = "Zapomniałeś hasła?";
+"LOGIN_BTN_JOIN_NOW_TXT"                = "Dołącz teraz";
+"LOGIN_BACK_TXT"                        = "Logowanie";
+"CHILD_TXT1"                            = "Wybierz konto dziecka";
+"CHILD_TXT2"                            = "Jeżeli nie widzisz konta dziecka\npobierz ponownie listę kont";
+"CHILD_TXT3"                            = "Nowe konto dziecka możesz dodać na my.safekiddo.com";
+"CHILD_BTN1_TXT"                        = "Dalej";
+"CHILD_BTN2_TXT"                        = "Zastosuj";
+"CHILD_BACK_TXT"                        = "Dzieci";
+"USER_NOTIFICATION"                     = "SafeKiddo zainstalowane!";
+"INSTALL_TXT1"                          = "Aplikacja SafeKiddo jest gotowa do ochrony twojego dziecka";
+"INSTALL_TXT2"                          = "Kliknij 'Uruchom' a następnie w kolejnym oknie kliknij 'Zainstaluj' aby zainstalować profil konfiguracyjny";
+"INSTALL_TXT3"                          = "Jeżeli twoje urządzenie posiada kod blokady, będziesz musiał go wprowadzić przed zainstalowaniem profilu";
+"INSTALL_BTN1_TXT"                      = "Uruchom";
+"BROWSER_ADR_TXT"                       = "Wpisz adres strony lub wyszukaj";
+"BOOKMARK_HOME"                         = "Zakładki";
+"GENERAL_EDIT"                          = "Edytuj";
+"GENERAL_DONE"                          = "Gotowe";
+"GENERAL_DELETE"                        = "Usuń";
+"HISTORY_TITLE"                         = "Historia";
+"BOOKMARK_ADD_FLD"                      = "Dodaj folder";
+"BOOKMARK_EDIT_FLD"                     = "Edytuj folder";
+"BOOKMARK_FLD_NAME"                     = "Folder";
+"BOOKMARK_ADD_SAVE"                     = "Zapisz";
+"BOOKMARK_ADD_CANCEL"                   = "Anuluj";
+"BOOKMARK_CHOOSE_FOLDER"                = "Folder";
+"TAB_ADD_TITLE"                         = "Nowa karta";
+"GENERAL_DISMISS"                       = "Zamknij";
+"SETTINGS_TITLE"                        = "Ustawienia";
+"SETTINGS_SECTION_CLEAR"                = "Czyszczenie";
+"SETTINGS_SECTION_OTHER"                = "Pozostałe ustawienia";
+"SETTINGS_SECTION_SAFEKIDDO"            = "SafeKiddo";
+"SETTINGS_SECTION_GENERAL"              = "Ogólne";
+"SETTINGS_SECTION_ABOUT"                = "O SafeKiddo";
+"SETTINGS_ALERT_YES"                    = "OK";
+"SETTINGS_ALERT_NO"                     = "Anuluj";
+"SETTINGS_COOKIE_CLEAR"                 = "Czyść pliki cookie";
+"SETTINGS_COOKIE_CLEAR_ALERT_TITLE"     = "Usuwanie cookies";
+"SETTINGS_COOKIE_CLEAR_ALERT_QUESTION"  = "Na pewno usunąć wszystkie pliki cookies?";
+"SETTINGS_CLEAR_BROWSER_HISTORY"        = "Wyczyść historię";
+"SETTINGS_HISTORY_CLEAR_ALERT_TITLE"    = "Czyszczenie historii";
+"SETTINGS_HISTORY_CLEAR_ALERT_QUESTION" = "Na pewno wyczyścić historię przeglądarki?";
+"SETTINGS_CLEAR_CACHE"                  = "Czyść pamięć podręczną";
+"SETTINGS_CACHE_CLEAR_ALERT_TITLE"      = "Wyczyść pamięć podręczną";
+"SETTINGS_CACHE_CLEAR_ALERT_QUESTION"   = "Na pewno wyczyścić pamięć podręczną przeglądarki?";
+"SETTINGS_BROWSER_IDENTITY"             = "Identyfikacja przeglądarki";
+"SETTINGS_BROWSER_IDENTITY_MOBILE"      = "iOS";
+"SETTINGS_BROWSER_IDENTITY_DESKTOP"     = "Komputer";
+"SETTINGS_PARENT_MODE"                  = "Tryb rodzica";
+"SETTINGS_PARENT_MODE_INSTRUCTION"      = "Aby przejść dalej, podaj PIN";
+"SETTINGS_ASSING_ACCOUNT"               = "Przypisz konto dziecka do urządzenia";
+"SETTINGS_ASSING_ACCOUNT_TITLE"         = "Wybierz dziecko z listy";
+"SETTINGS_LOGOUT"                       = "Wyloguj i wyłącz ochronę SafeKiddo";
+"SETTINGS_VERSION"                      = "Wersja %@";
+"SETTINGS_REGULATIONS"                  = "Regulamin";
+"SETTINGS_PRIVACY"                      = "Polityka prywatności";
+"SETTINGS_COOKIES"                      = "Polityka Cookies";
+"SETTINGS_COPYRIGHT"                    = "© Copyright by Ardura";
+"SETTINGS_OPENSOURCE"                   = "Licencje open source";
+"SETTINGS_MANAGE_SAFE_KIDDO"            = "Zarządzaj SafeKiddo";
+"SETTINGS_ABOUT"                        = "O SafeKiddo";
+"SETTINGS_TERMS_AND_CONDITIONS"         = "Regulamin";
+"SETTINGS_SEARCH_ENGINE"                = "Wyszukiwarka";
+"LOGOUT_TITLE"                          = "Wyloguj";
+"LOGOUT_TXT1"                           = "Aby wylogować się z aplikacji, należy odinstalować profil SafeKiddo w Ustawieniach urządzenia:";
+"LOGOUT_TXT2"                           = "Ustawienia -> Ogólne -> Profil -> SafeKiddo Profile -> Usuń profil";
+"LOGOUT_TXT3"                           = "Jeżeli twoje urządzenie posiada kod blokady, będziesz musiał go wprowadzić przed usunięciem profilu";
+"LOGOUT_TXT4"                           = "W ostatnim kroku, należy wprowadzić PIN:";
+"LOGOUT_TXT5"                           = "Kliknij aby skopiować";
+"LOGOUT_TXT6"                           = "Skopiowano";
+
+"NEW_TAB_CANCEL"                        = "Anuluj";
+"NEW_TAB_OPEN"                          = "Otwórz";
+"NEW_TAB_OPEN_IN_NEW"                   = "Otwórz w nowej karcie";
+
+"WELCOME_TXT1"                          = "Bezpieczny Internet dla Twojego dziecka";
+"WELCOME_TUT1_TXT1"                     = "Zapewnij dziecku bezpieczeństwo w Internecie";
+"WELCOME_TUT1_TXT2"                     = "SafeKiddo pomoże Ci dobrać bezpieczne treści do wieku Twojego dziecka";
+"WELCOME_TUT2_TXT1"                     = "Kontroluj czas jaki dziecko spędza w Internecie";
+"WELCOME_TUT2_TXT2"                     = "Dzięki SafeKiddo możesz dowolnie ustawić godziny korzystania z Internetu";
+"WELCOME_TUT3_TXT1"                     = "Kontroluj czas jaki dziecko spędza w Internecie";
+"WELCOME_TUT3_TXT2"                     = "Dzięki SafeKiddo możesz dowolnie ustawić godziny korzystania z Internetu";
+
+
+"REGISTER_BTN1_TXT"                     = "Anuluj";
+"REGISTER_BACK"                         = "Cofnij";
+"REGISTER_BTN2_TXT"                     = "Następny krok";
+"REGISTER_TXT"                          = "Stwórz konto rodzica";
+
+"REGISTER_TXT1"                         = "E-mail";
+"REGISTER_TXT2"                         = "Hasło";
+"REGISTER_TXT3"                         = "Imię";
+"REGISTER_TXT4"                         = "PIN (4-8 cyfr)";
+"REGISTER_TXT5"                         = "Nazwisko";
+
+"REGISTER_TERMS_AND_REGULATIONS"        = "Akceptuję regulamin i politykę prywatności";
+
+"REGISTER_TERMS_KEYWORD"                = "regulamin";
+"REGISTER_POLICY_KEYWORD"               = "politykę prywatności";
+
+"REGISTER_SHARE_DATA"                   = "Chcę otrzymywać dodatkowe materiały parentingowe od partnerów SafeKiddo";
+
+"CREATE_PROFILE_TXT_1"                  = "Nazwa profilu dziecka";
+"CREATE_PROFILE_TXT_2"                  = "Rok urodzenia dziecka";
+
+"CREATE_PROFILE_HEADER"                 = "Stwórz profil dziecka";
+"CREATE_PROFILE_HEADER_INTERNET"        = "Czas dostępu do internetu";
+
+"CLOSEBAR_CLOSE"                        = "Zamknij";
+
+"CREATE_PROFILE_WEEK"                   = "Pn-Pt:";
+"CREATE_PROFILE_WEEKEND"                = "Sob-Nd:";
+
+"CREATE_PROFILE_REGISTER"               = "Zarejestruj się";
+
+
+"REGISTER_VALIDATE_EMAIL"               = "Wprowadź poprawny adres e-mail";
+"REGISTER_VALIDATE_PASSWORD"            = "Hasło musi mieć minimum 6 znaków";
+"REGISTER_VALIDATE_FIRSTNAME"           = "Imię nie może być puste";
+"REGISTER_VALIDATE_PIN"                 = "Pin musi składać się z 4-8 znaków";
+
+"REGISTER_VALIDATE_ACEPT_TERMS"         = "Musisz zaakceptować regulamin";
+
+"REGISTER_VALIDATION_TITLE"             = "Błędy w formularzu";
+"REGISTER_VALIDATION_OK"                = "Ok";
+
+
+"REGISTER_VALIDATE_PROFILE_NAME"        = "Proszę podać nazwę profilu";
+"REGISTER_VALIDATE_PROFILE_BIRTHYEAR"   = "Proszę podać wiek dziecka";
+
+"REGISTER_ERROR_TITLE"                  = "Błąd rejestracji";
+"REGISTER_ERROR_UNKNOWN"                = "Nieznany błąd";
+"REGISTER_ERROR_OK"                     = "OK";

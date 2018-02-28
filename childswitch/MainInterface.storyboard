@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="3AU-bg-298">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="750" constant="100" id="z1A-WD-etY"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="FPu-Fb-ESn" customClass="TodayChildTableCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FPu-Fb-ESn" id="vbS-Of-MWg">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Michał" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qV-7a-1dk">
+                                                    <rect key="frame" x="41" y="12" width="51" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5c6-w6-Q5X">
+                                                    <rect key="frame" x="262" y="7" width="50" height="30"/>
+                                                    <state key="normal" title="Otwórz">
+                                                        <color key="titleColor" red="0.91764705879999997" green="0.3803921569" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="openAction:" destination="FPu-Fb-ESn" eventType="touchUpInside" id="hS6-Y9-LhJ"/>
+                                                    </connections>
+                                                </button>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="07C-28-mdA">
+                                                    <rect key="frame" x="8" y="9" width="25" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="25" id="eJI-Be-xMw"/>
+                                                        <constraint firstAttribute="height" constant="25" id="rN4-Mw-xPe"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="07C-28-mdA" firstAttribute="leading" secondItem="vbS-Of-MWg" secondAttribute="leading" constant="8" id="I2h-Nl-2Yb"/>
+                                                <constraint firstAttribute="centerY" secondItem="1qV-7a-1dk" secondAttribute="centerY" id="KUo-l1-41B"/>
+                                                <constraint firstAttribute="centerY" secondItem="5c6-w6-Q5X" secondAttribute="centerY" id="ZLP-zt-RqZ"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="5c6-w6-Q5X" secondAttribute="trailing" id="npX-o2-cVG"/>
+                                                <constraint firstItem="1qV-7a-1dk" firstAttribute="leading" secondItem="07C-28-mdA" secondAttribute="trailing" constant="8" id="qAn-Ot-kQS"/>
+                                                <constraint firstItem="07C-28-mdA" firstAttribute="top" secondItem="vbS-Of-MWg" secondAttribute="top" constant="9" id="tAw-jd-DFU"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="childAvatarImageView" destination="07C-28-mdA" id="ZNf-ZU-XBH"/>
+                                            <outlet property="childNameLabel" destination="1qV-7a-1dk" id="V5O-Ru-9Z6"/>
+                                            <outlet property="openButton" destination="5c6-w6-Q5X" id="WoO-HD-E4W"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="M4Y-Lb-cyx" id="JBt-jT-OfG"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="3AU-bg-298" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="A1t-QV-aFR"/>
+                            <constraint firstItem="3AU-bg-298" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="FG6-k8-Lpi"/>
+                            <constraint firstAttribute="trailing" secondItem="3AU-bg-298" secondAttribute="trailing" id="ZoV-LT-sRB"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="3AU-bg-298" secondAttribute="bottom" id="acJ-nV-TsN"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="100"/>
+                    <connections>
+                        <outlet property="heightConstraint" destination="z1A-WD-etY" id="w9h-8v-RMH"/>
+                        <outlet property="tableView" destination="3AU-bg-298" id="sFk-ge-bV3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="516" y="285"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

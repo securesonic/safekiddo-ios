@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YearPickerInput">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="203"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dJX-pO-5EX">
+                    <rect key="frame" x="0.0" y="12" width="393" height="180"/>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="jCr-qd-Mmk"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="iGe-Gy-ml5"/>
+                    </connections>
+                </pickerView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="dJX-pO-5EX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="HeS-JJ-78r"/>
+                <constraint firstItem="dJX-pO-5EX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Tc7-yX-f6t"/>
+                <constraint firstAttribute="bottom" secondItem="dJX-pO-5EX" secondAttribute="bottom" id="f23-aa-swn"/>
+                <constraint firstAttribute="trailing" secondItem="dJX-pO-5EX" secondAttribute="trailing" id="jiR-cQ-nxD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="yearPicker" destination="dJX-pO-5EX" id="fGm-E3-U7P"/>
+            </connections>
+            <point key="canvasLocation" x="248.5" y="193.5"/>
+        </view>
+    </objects>
+</document>
